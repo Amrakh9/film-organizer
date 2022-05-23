@@ -30,7 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	background-color: #E69A8DFF;
+	background-color: rgb(255, 255, 255);
+	overflow-x: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -47,3 +48,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.scrollable-element {
+	scrollbar-color: dark;
+  }
